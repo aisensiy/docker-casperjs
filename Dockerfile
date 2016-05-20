@@ -12,4 +12,4 @@ RUN mkdir /home/casperjs
 
 WORKDIR /home/casperjs
 
-ENTRYPOINT ["casperjs", "script.js"]
+CMD ["casperjs"]
